@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AdminPanel from './components/AdminPanel';
+import WhatsAppButton from './components/WhatsAppButton';
 
 import { INITIAL_STATS } from './data';
 import { ContactSubmission, CounterStat } from './types';
@@ -104,6 +105,8 @@ export default function App() {
       </main>
 
       <Footer />
+
+      <WhatsAppButton />
 
       {/* Interactive custom admin overlay */}
       <AdminPanel
